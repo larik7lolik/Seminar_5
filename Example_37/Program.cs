@@ -7,7 +7,7 @@ int[]array = new int[123];
 {
     for(int i = 0; i < massiv.Length; i++)
     {
-        massiv [i] = new Random().Next(10, 99);
+        massiv [i] = new Random().Next(-500, 501);
         
     }
 }

@@ -44,4 +44,4 @@ Console.WriteLine("Введите число: ");
 int a = int.Parse(Console.ReadLine());
 int b = Array.IndexOf(array, a);
 if (b==-1) Console.WriteLine("Данное число отсутствует в массиве");
-else Console.WriteLine($"Данное число есть в массиве с позицией{b}");
+else Console.WriteLine($"Данное число есть в массиве с позицией {b+1}");
